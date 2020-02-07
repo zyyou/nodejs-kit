@@ -1,0 +1,33 @@
+{
+  "name": "n-kit",
+  "version": "1.0.0",
+  "description": "Nodejs开发套件",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "test": "node ./test/test.js",
+    "build": "tsc",
+    "release": "tsc && npm publish"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zyyou/n-kit.git"
+  },
+  "keywords": [
+    "nodejs",
+    "kit",
+    "sdk",
+    "lib",
+    "javascript",
+    "js"
+  ],
+  "author": "zyy",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zyyou/n-kit/issues"
+  },
+  "homepage": "https://github.com/zyyou/n-kit#readme",
+  "dependencies": {
+    "@types/node": "^13.7.0"
+  }
+}

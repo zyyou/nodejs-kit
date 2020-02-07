@@ -1,0 +1,65 @@
+{
+  "compilerOptions": {
+    /* 基础选项 */
+    // "incremental": true,                   /* 增量编译 */
+    "target": "ES2019", /* ECMAScript目标版本，默认ES3： 'ES5', 'ES2015', 'ES2016', 'ES2017', 'ES2018', 'ES2019' or 'ESNEXT'. */
+    "module": "commonjs", /* 生成代码的模块标准: 'none', 'commonjs', 'amd', 'system', 'umd', 'es2015', or 'ESNext'. */
+    // "lib": [],                             /* 需要引用的库（声明文件） */
+    // "allowJs": true,                       /* 允许编译javascript文件*/
+    // "checkJs": true,                       /* 报告.js文件中的错误 */
+    // "jsx": "preserve",                     /* 在.tsx文件里支持JSX：'preserve', 'react-native', or 'react'. */
+    "declaration": true, /* 生成声明文件，不能与allowJs同时设为true */
+    // "declarationMap": true,                /* 为声明文件生成.map文件 */
+    // "sourceMap": true,                     /* 生成.map文件 */
+    // "outFile": "./",                       /* 合并输出单个文件 */
+    "outDir": "./dist", /* 输出目录 */
+    // "rootDir": "./src",                    /* 编译文件的根目录 */
+    // "composite": true,                     /* 启用项目编译 */
+    // "tsBuildInfoFile": "./",               /* 指定文件以存储增量编译信息 */
+    // "removeComments": true,                /* 不输出注释 */
+    // "noEmit": true,                        /* 不要输出文件 */
+    // "importHelpers": true,                 /* 引入tslib里的辅助工具函数 */
+    // "downlevelIteration": true,            /* ES ES3时支持迭代器 */
+    // "isolatedModules": true,               /* 将每个文件作为单独的模块进行传输 */
+    /* 严格类型检查选项 */
+    "strict": true, /* 启用所有严格类型检查，启用后下面几个有效 */
+    // "noImplicitAny": true,                 /* 对隐含“any”类型的表达式和声明引发错误 */
+    // "strictNullChecks": true,              /* 启用严格的空检查 */
+    // "strictFunctionTypes": true,           /* 启用函数类型的严格检查 */
+    // "strictBindCallApply": true,           /* 对bind call apply函数参数启用严格检查 */
+    // "strictPropertyInitialization": true,  /* 在类中启用属性初始化的严格检查 */
+    // "noImplicitThis": true,                /* 对隐含“any”类型的“this”表达式引发错误 */
+    // "alwaysStrict": true,                  /* 始终以严格模式检查每个模块 */
+    /* 附加检查 */
+    // "noUnusedLocals": true,                /* 报告未使用的局部变量 */
+    // "noUnusedParameters": true,            /* 报告未使用的函数参数 */
+    // "noImplicitReturns": true,             /* 检查函数是否有返回值 */
+    // "noFallthroughCasesInSwitch": true,    /* 检查switch是否有case没break */
+    /* 模块解析选项 */
+    // "moduleResolution": "node",            /* 指定模块解析策略: 'node' (Node.js) or 'classic' (TypeScript pre-1.6). */
+    "baseUrl": "./src", /* 工作目录 */
+    // "paths": {},                           /* 模块路径，关联baseUrl */
+    // "rootDirs": [],                        /* 构建时多个目录合并到一个虚拟目录下 */
+    // "typeRoots": [],                       /* 指定声明文件所在文件夹的路径列表，指定后不在列表中的不加载 */
+    // "types": [],                           /* 指定声明文件列表，指定后不在列表中的不加载 */
+    // "allowSyntheticDefaultImports": true,  /* 允许从没有默认导出的模块进行默认导入。这不会影响代码发出，只会影响类型检查 */
+    "esModuleInterop": true, /* 通过为所有导入创建命名空间对象，启用CommonJS和ES模块之间的互操作性 */
+    // "preserveSymlinks": true,              /* 不要解析符号链接的实际路径，参考 webpack、nodejs的symlink */
+    // "allowUmdGlobalAccess": true,          /* 允许从模块访问UMD全局 */
+    /* Source Map Options */
+    // "sourceRoot": "",                      /* 指定调试器应在其中定位TypeScript文件而不是源位置，会写入.map */
+    // "mapRoot": "",                         /* 指定调试器应定位映射文件而不是生成位置的位置 */
+    // "inlineSourceMap": true,               /* 写入js文件底部，不输出单独文件 */
+    // "inlineSources": true,                 /* .ts内容包含到输出文件 */
+    /* 实验选项 */
+    // "experimentalDecorators": true,        /* 启用ES7装饰器支持 */
+    // "emitDecoratorMetadata": true,         /* 启用对为装饰器发出类型元数据的实验性支持 */
+    /* 高级选项 */
+    "forceConsistentCasingInFileNames": true /* 不允许对同一文件进行大小写不一致的引用 */
+  },
+  "exclude": [
+    "dist",
+    "node_modules",
+    "test"
+  ]
+}
