@@ -24,9 +24,9 @@
   "author": "zyy",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/zyyou/n-kit/issues"
+    "url": "https://github.com/zyyou/nodejs-kit/issues"
   },
-  "homepage": "https://github.com/zyyou/n-kit#readme",
+  "homepage": "https://github.com/zyyou/nodejs-kit#readme",
   "dependencies": {
     "@types/node": "^13.7.0"
   }
