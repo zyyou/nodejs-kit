@@ -1,5 +1,5 @@
 {
-  "name": "n-kit",
+  "name": "nodejs-kit",
   "version": "1.0.0",
   "description": "Nodejs开发套件",
   "main": "dist/index.js",
@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/zyyou/n-kit.git"
+    "url": "git+https://github.com/zyyou/nodejs-kit.git"
   },
   "keywords": [
     "nodejs",
