@@ -20,7 +20,7 @@ export enum MessageCode {
 /**
  * 通用返回消息，可用于函数返回
  */
-export interface IReturnMessage {
+export interface IReturnValue {
     /**
      * 是否处理成功
      */
@@ -28,7 +28,7 @@ export interface IReturnMessage {
     /**
      * 返回消息
      */
-    message: string;
+    message?: string;
     /**
      * 返回数据
      */
@@ -36,7 +36,7 @@ export interface IReturnMessage {
     /**
      * 返回代码
      */
-    code?: string;
+    code?: string | number;
 }
 
 /**
@@ -50,11 +50,11 @@ export interface IApiMessage {
     /**
      * 接口交互消息
      */
-    return_msg: string;
+    return_msg?: string;
     /**
      * 业务处理状态码
      */
-    result_code?: string;
+    result_code?: string | number;
     /**
      * 业务处理消息
      */
