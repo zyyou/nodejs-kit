@@ -37,6 +37,10 @@ export interface IReturnValue {
      * 返回代码
      */
     code?: string | number;
+    /**
+     * 开发消息，响应到前端必须删除该数据
+     */
+    devMessage?: string;
 }
 
 /**
