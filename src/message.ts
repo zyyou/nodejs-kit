@@ -1,5 +1,5 @@
 import ValueUtils from './utils/value';
-import { IApiMessage, IReturnValue } from './interface/IComModel';
+import { IApiMessage, IReturnValue } from './interface/com_model';
 
 /**
  * 构造通用返回数据模型
