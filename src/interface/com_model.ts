@@ -56,3 +56,9 @@ export interface IApiMessage {
     [propName: string]: any;
 }
 
+/**
+ * json对象
+ */
+export interface IJson {
+    [propName: string]: any;
+}

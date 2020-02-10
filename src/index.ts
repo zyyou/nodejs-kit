@@ -1,7 +1,7 @@
 
 import VUtils from './utils/value';
 
-export * from './interface/IComModel';
+export * from './interface/com_model';
 export * from './message';
 
 /**
