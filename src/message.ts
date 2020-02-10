@@ -1,5 +1,5 @@
 import ValueUtils from './utils/value';
-import { IApiMessage, IReturnValue, MessageCode } from './interface/IComModel';
+import { IApiMessage, IReturnValue } from './interface/IComModel';
 
 /**
  * 构造通用返回数据模型
@@ -23,10 +23,11 @@ export function makeReturnValue(message: string, success: boolean = false, data?
  */
 export function toReturnValue(apiMessage: IApiMessage): IReturnValue {
     const retMsg: IReturnValue = {
-        success: apiMessage.return_code === MessageCode.success && apiMessage.result_code === MessageCode.success,
+        success: apiMessage.return_code === 'SUCCESS' && apiMessage.result_code === 'SUCCESS',
         message: apiMessage.result_msg || apiMessage.return_msg,
         code: apiMessage.result_code || apiMessage.return_code
     }
+
 
     if (retMsg.success) {
         retMsg.data = apiMessage;

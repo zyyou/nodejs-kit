@@ -1,21 +1,10 @@
 
+
 /**
  * 消息代码
  */
-export enum MessageCode {
-    /**
-     * 失败
-     */
-    fail = 'FAIL',
-    /**
-     * 成功
-     */
-    success = 'SUCCESS',
-    /**
-     * 处理中
-     */
-    process = 'PROCESS'
-}
+export type MessageCode = 'FAIL' | 'SUCCESS' | 'PROCESS' ;
+
 
 /**
  * 通用返回消息，可用于函数返回
