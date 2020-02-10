@@ -14,7 +14,7 @@ export enum MessageCode {
     /**
      * 处理中
      */
-    process = 'PROCESS',
+    process = 'PROCESS'
 }
 
 /**
@@ -63,5 +63,7 @@ export interface IApiMessage {
      * 业务处理消息
      */
     result_msg?: string;
+
+    [propName: string]: any;
 }
 
