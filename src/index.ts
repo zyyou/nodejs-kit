@@ -1,15 +1,19 @@
 
-import VUtils from './utils/value';
+import ValueUtils from './utils/value';
 
 export * from './interface/com_model';
 export * from './message';
+import * as msg from './message';
 
-/**
- * 常用函数
- */
-export namespace Utils {
-    export const ValueUtils = VUtils;
-}
+export const valueUtils = ValueUtils;
+
+
+// /**
+//  * 常用函数
+//  */
+// export namespace Utils {
+//     ValueUtils
+// }
 
 
 
